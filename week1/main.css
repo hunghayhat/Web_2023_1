@@ -1,0 +1,130 @@
+h1 {
+    color: blue;
+}
+
+.column {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.container {
+    background-color: white;
+    padding: 15px;
+    max-width: 600px;
+    border-radius: 5px;
+}
+
+*{
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    background-color: gray;
+
+}
+
+.title {
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+.bold {
+    font-weight: bold;
+    font-size: 30px;
+}
+
+input {
+    border-width: 1px;
+    border-radius: 3px;
+    border-color: lightgray;
+    min-height: 30px;
+    padding: 5px;
+    min-width: 0px;   
+    border-radius: 3px;
+    border: 1px solid grey;
+}
+
+.radio {
+    justify-content: space-between;
+    align-items: center;
+    border-width: 100px;
+    border-radius: 3px;
+    border: 1px solid grey;
+   
+}
+
+.flex {
+    display: flex;
+}
+
+.flex1 {
+    flex: 1;
+}
+
+.flex3 {
+    flex: 3;
+    padding-left:5px ;
+}
+
+.flex4 {
+    padding-left:5px ;
+    flex: 4;
+}
+
+.gap {
+    gap: 10px;
+}
+
+.signin {
+    text-align: center;
+}
+
+.button {
+    display: flex;
+    background-color: green;
+    justify-content: center;
+    align-items: center;
+    color: white;
+    width: 150px;
+    height: 40px;
+    border-radius: 10px;
+    font-size: 14px;
+    font-weight: 700;
+    
+}
+
+.hi {
+    display: flex;
+    align-items: center;
+}
+
+.fa-solid {
+    font-size: 10px;
+    margin-left: 3px;
+}
+
+.button-sign {
+display: flex;
+justify-content: center;
+align-items: center;
+}
+
+.underline {
+    color: blue;
+}
+
+.root {
+    padding: 30px;
+    background-color: rgb(205, 205, 205);
+}
+
+.root h1:nth-child(1) {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 36px;
+}
